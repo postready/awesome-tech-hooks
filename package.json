@@ -1,0 +1,41 @@
+{
+  "name": "awesome-tech-hooks",
+  "version": "1.0.0",
+  "description": "Curated open-source dataset and CLI of 500+ viral hooks and frameworks for developers, indie hackers, and tech creators.",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "type": "module",
+  "bin": {
+    "awesome-tech-hooks": "./bin/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./data": "./data/hooks.json",
+    "./csv": "./data/hooks.csv"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "generate": "node scripts/generate_500_hooks.js",
+    "start": "node bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eco-null/awesome-tech-hooks.git"
+  },
+  "keywords": [
+    "awesome-list",
+    "hooks",
+    "social-media",
+    "dataset",
+    "twitter-hooks",
+    "linkedin-hooks",
+    "content-creation",
+    "indie-hacker",
+    "developer-marketing"
+  ],
+  "author": "eco-null <emrecanozdal@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
