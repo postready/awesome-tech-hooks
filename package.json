@@ -1,6 +1,6 @@
 {
   "name": "awesome-tech-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Curated open-source dataset and CLI of 500+ viral hooks and frameworks for developers, indie hackers, and tech creators.",
   "main": "src/index.js",
   "module": "src/index.js",
