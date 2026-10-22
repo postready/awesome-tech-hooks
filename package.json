@@ -6,8 +6,15 @@
   "module": "src/index.js",
   "type": "module",
   "bin": {
-    "awesome-tech-hooks": "./bin/cli.js"
+    "awesome-tech-hooks": "bin/cli.js"
   },
+  "files": [
+    "bin",
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     ".": "./src/index.js",
     "./data": "./data/hooks.json",
