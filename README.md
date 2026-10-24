@@ -12,7 +12,6 @@ A curated, battle-tested collection of opening hooks reverse-engineered from vir
 Part of the **[PostReady.org](https://postready.org)** open-source toolkit.
 
 ---
-
 ## Categories & Coverage
 
 | Category | Hooks | Focus Area |
@@ -26,7 +25,6 @@ Part of the **[PostReady.org](https://postready.org)** open-source toolkit.
 | `templates` | ~70 | Checklists, standard operating procedures, outreach copy |
 
 ---
-
 ## Quick Start (Interactive CLI)
 
 Explore hooks directly from your terminal with `npx`:
@@ -49,7 +47,6 @@ npx awesome-tech-hooks --random --json
 ```
 
 ---
-
 ## Dataset Formats
 
 The full dataset is available in two raw formats in the `/data` folder:
@@ -72,7 +69,6 @@ The full dataset is available in two raw formats in the `/data` folder:
 ```
 
 ---
-
 ## Programmatic Usage
 
 ### JavaScript / TypeScript:
@@ -107,11 +103,10 @@ print(stories[['id', 'template']].head())
 ```
 
 ---
-
 ## Need AI-Generated Hooks?
 
 If you prefer AI to write customized hooks based on your exact code, article, or topic:
-👉 **[PostReady AI Hook Generator](https://postready.org/en/tools/hook-generator)** — 25 free credits, optimized for X & LinkedIn algorithms.
+ **[PostReady AI Hook Generator](https://postready.org/en/tools/hook-generator)** — 25 free credits, optimized for X & LinkedIn algorithms.
 
 Also explore:
 - [Tweet to LinkedIn Formatter](https://postready.org/en/tools/tweet-to-linkedin)
@@ -119,7 +114,6 @@ Also explore:
 - [Social Text Styler](https://postready.org/en/tools/linkedin-text-formatter)
 
 ---
-
 ## License
 
 MIT © [eco-null](https://github.com/eco-null)
